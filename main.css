@@ -1,0 +1,95 @@
+*{
+    margin: 30;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1100px;
+    max-width: 75%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card {
+    flex: 1 1 21rem;
+    margin: 10px 0;
+    background-color: #e28528;
+    padding: 10px 20px;
+    margin-bottom: 60px;
+    align-self: normal;
+}
+.card1 {
+    flex: 1 1 21rem;
+    margin: 10px 0;
+    background-color: #026972;
+    padding: 10px 20px;
+    margin-bottom: 60px;
+    align-self: normal;
+}
+.card2 {
+    flex: 1 1 21rem;
+    margin: 10px 0;
+    background-color: #043135;
+    padding: 10px 20px;
+    margin-bottom: 60px;
+    align-self: normal;
+}
+.card h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 100px 0;
+}
+.card1 h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 100px 0; 
+}
+.card2 h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 100px 0; 
+}
+.card .cta{
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #e28528;
+    font-weight:700 ;
+    font-size: 1.3em;
+    border-radius: 100px;
+    align-self: flex-start;
+}
+.card1 .cta{
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #026972;
+    font-weight:700 ;
+    font-size: 1.3em;
+    border-radius: 100px;
+    align-self: flex-start;
+}
+.card2 .cta{
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #043135;
+    font-weight:700 ;
+    font-size: 1.3em;
+    border-radius: 100px;
+    align-self: flex-start;
+}
